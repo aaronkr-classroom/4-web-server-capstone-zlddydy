@@ -97,6 +97,23 @@
 
 **Note** HTML 파일은 클라이언트 레벨에서 보이는 파일이지만 에셋으로 분류되지는 않는다. 따라서 public 폴더에 위치시키지 않는다.
 
+---
+
+## 테스팅
+
+이 저장소는 앱이 각 웹사이트 페이지에 대한 라우트를 올바르게 처리하는지 여부를 확인하는 테스트 도구 모음이 포함되어 있습니다.
+`main.js`를 기본 애플리케이션 파일로 사용하고 `router.js`를 라우트 핸들러로 사용해야 합니다. 그런 다음 테스트 도구는 다음 
+라우트를 확인합니다:
+
+1. `GET /` (index.html 확인)
+2. `GET /courses.html`
+3. `GET /contact.html`
+4. `GET /thanks.html`
+5. `GET /error.html`
+6. `POST /contact.html` (폼 제출 확인)
+
+따라서 페이지 이름을 바꾸거나 추가하더라도 테스트를 통과하려면 위에 나열된 각 페이지를 포함해야 합니다.
+
 ### HELP
 
 문제가 있는 경우 이 과제에 대한 [HELP 포럼](https://github.com/orgs/ut-nodejs/discussions/3)에 문제를 제출하십시오.
