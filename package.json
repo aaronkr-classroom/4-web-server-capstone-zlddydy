@@ -1,7 +1,7 @@
 {
-  "name": "2-express-webserver",
+  "name": "2-webserver-capstone",
   "version": "1.0.0",
-  "description": "Assignments for Unit 2",
+  "description": "A site for booking cooking classes.",
   "main": "main.js",
   "scripts": {
     "test": "jest"
